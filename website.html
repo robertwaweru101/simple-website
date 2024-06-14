@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Simple Website</title>
+	<link rel="icon" href="favicon.ico" type="img_car.jpg">
+	<style>
+		body {
+			font-family: Arial, sans-serif ;
+			background-color: #f5f5f5;
+			color: #333;
+		}
+		header, nav, main, footer {
+			margin: 20px;
+			padding: 20px;
+			border: 1px solid #ccc;
+			background-color: #fff;
+		}
+		header {
+			background-color: #4CAF50;
+			color: white;
+		}
+		nav ul {
+			list-style-type: none;
+			padding: 0;
+		}
+		nav li {
+			display: inline;
+			margin-right: 10px;
+		}
+		nav a {
+			text-decoration: none;
+			color: #4CAF50;
+		}
+		nav a:hover {
+			text-decoration: underline;
+		}
+		.logo {
+			max-width: 100px;
+		}
+		table {
+			width: 100%;
+			border-collapse: collapse;
+		}
+		table, th, td {
+			border: 1px;
+		}
+		th, td {
+			padding: 8px;
+			text-align: left;
+		}
+		footer {
+			text align:  center;
+			background-color: #333;
+			color: white;
+		}
+		blockquote {
+			border-left: 4px solid #4CAF50;
+			margin: 20px;
+			padding-left: 20px;
+			color: #555;
+		}
+		p {
+			margin-bottom: 1em;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Welcome to My Simple Webpage</h1>
+		<img src="img_car.jpg" class="logo">
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#home" class="nav-link">Home</a></li>
+			<li><a href="#about" class="nav-link">About</a></li>
+			<li><a href="#contact"class="nav-link">Contact</a></li>
+		</ul>
+	</nav>
+	<main>
+		<section id="home">
+		<h2>Home</h2>
+		<p>This is the home section of my simple webpage. Here, you'll find basic information an navigation.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula dolor vel augue interdum, sed facilisis massa suscipit. Etiam sit amet convallis mauris</p>
+		<blockquote cite="https://www.example.com">
+			"This is an example of a blockquote. It can be used to highlight important information or quotes."
+		</blockquote>
+	</section>
+	<section id="about">
+		<h2>About</h2>
+		<p>This section contains information about the purpose of this website and its creator. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae tincidunt nisl. Vivamus auctor velit in nisi scelerisque, non blandit magna aliquet.</p>
+	<iframe width="905" height="380" src="https://www.youtube.com/embed/PSdZdlkqNvA" title="The97sPodcast Episode 53 - PreGnancy ScaRe Ft KingKalala" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	<h3>Favorite Books</h3>
+	<ul>
+		<li>Book One</li>
+		<li>Book Two</li>
+		<li>Book Three</li>
+	</ul>
+	<h3>Technologies used</h3>
+	<table>
+		<thead>
+			<tr>
+				<th>Technology</th>
+				<th>Description</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>HTML</td>
+				<td>Markup language for creating web pages</td>
+			</tr>
+			<tr>
+				<td>CSS</td>
+				<td>Style sheet language for designing web pages</td>
+			</tr>
+			<tr>
+				<td>Javascript</td>
+				<td>Programing language for web development</td>
+			</tr>
+		</tbody>
+	</table>
+	<h3>Embedded Youtube video</h3>
+</section>
+<section id="contact">
+	<h2>Contact</h2>
+	<form action="/submit" method="post">
+		<label for="name">Name:</label><br>
+		<input type="text" id="name" name="name"><br><br>
+		<label for="Email">Email</label><br>
+		<input type="Email" id="Email" name="Email"><br><br>
+		<label for="Message">Message</label><br>
+		<textarea id="Message" name="Message"></textarea><br><br>
+		<input type="submit" value="Submit">
+	</form>
+	<h3>Find Us Here</h3>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255282.35868918113!2d36.6825858540242!3d-1.3028602933407964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1172d84d49a7%3A0xf7cf0254b297924c!2sNairobi!5e0!3m2!1sen!2ske!4v1718350253618!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+</main>
+<footer>
+	<p>&copy; 2024 My Simple Webpage</p>
+</footer>
+
+</body>
+</html>
